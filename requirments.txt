@@ -1,3 +1,6 @@
 beautifulsoup
 requests
 lxml
+pyperclip
+
+these are the modules i used in this project
