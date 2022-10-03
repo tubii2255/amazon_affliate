@@ -1,5 +1,5 @@
 @echo off
-"C:\Users\user\anaconda3\python.exe" "F:\PYTHON\my  main codes\amazon.py"
+"path of interpreter" "path of your py file"
 
 
 
