@@ -22,7 +22,7 @@ def amazon():
     if soup2.find(id='productTitle'):
 
         title = soup2.find(id='productTitle').get_text().lstrip()
-        print(title)
+        
     else:
         print("no tittle")
     
@@ -31,11 +31,7 @@ def amazon():
             original = URL.split('?')
             print(original)
             my_link = original[0] + '?tag=dealteck-21'
-            print(my_link)
-            
-            
-            
-            
+            print(my_link)            
     else:
         pass
         
