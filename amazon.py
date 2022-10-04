@@ -22,28 +22,22 @@ def amazon():
     if soup2.find(id='productTitle'):
 
         title = soup2.find(id='productTitle').get_text().lstrip()
-        
     else:
-        print("no tittle")
+        pass
     
     if '?' in URL:
              
             original = URL.split('?')
             print(original)
-            my_link = original[0] + '?tag=dealteck-21'
-            print(my_link)            
+            my_link = original[0] + '?tag=dealteck-21'           
     else:
-        pass
-        
+        pass  
    
-    if soup2.select(".a-offscreen"):
-         
-            
+    if soup2.select(".a-offscreen"):            
         price = soup2.select(".a-offscreen")[0]
         p =(price.text)
         k =((p.split()))        
        
-        print('▶️offer price',k[0])
 
         j = '👉🏻 '+ title + '\n\n✅offer price  '+ str(k[0]) +'\n buy link -- ' + my_link
 
