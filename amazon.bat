@@ -42,7 +42,7 @@ def amazon():
              
             original = URL.split('?')
             print(original)
-            my_link = original[0] + '?tag=dealteck-21'           
+            my_link = original[0] + '?tag=dealteck-21' #use your tag            
     else:
         pass  
    #class offscreen contains the list value of the price
